@@ -1,0 +1,22 @@
+name: Lint
+on:
+    push:
+        branches: [ develop ]
+    pull_request:
+jobs:
+    duster:
+        name: Lint and Build
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v3
+            - name: Setup Node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+            - name: Install dependencies
+              uses: bahmutov/npm-install@v1
+            - name: Lint project
+              run: npm run lint
+            - name: Build project
+              run: npm run build
