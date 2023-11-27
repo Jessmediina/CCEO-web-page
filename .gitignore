@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Enviroment
+.env
+.env.production
+.env.sandbox
+src/ziggy.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
