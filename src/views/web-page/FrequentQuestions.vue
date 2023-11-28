@@ -1,0 +1,3 @@
+<template>
+	Frequent Questions
+</template>
