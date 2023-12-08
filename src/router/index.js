@@ -8,6 +8,7 @@ import Products from "@/views/web-page/Products.vue";
 import Contact from "@/views/web-page/Contact.vue";
 import Careers from "@/views/web-page/Careers.vue";
 import Industries from "@/views/web-page/Industries.vue";
+import SuccessStories from "@/views/web-page/SuccessStories.vue";
 import TermsAndConditions from "@/views/web-page/TermsAndConditions.vue";
 import NoticeOfPrivacy from "@/views/web-page/NoticeOfPrivacy.vue";
 import CustomerSupport from "@/views/web-page/CustomerSupport.vue";
@@ -48,6 +49,11 @@ const routes = [
         path: '/industrias',
         name: 'industries',
         component: Industries,
+    },
+    {
+        path: '/casos-de-exito',
+        name: 'successStories',
+        component: SuccessStories,
     },
     {
         path: '/terminos-y-condiciones',
