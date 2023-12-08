@@ -1,6 +1,6 @@
 <template>
-	<header class="h-auto full-width relative py-[15px] first-letter:lg:py-[26px]">
-		<div class="px-[12px] md:px-[36px] mt-[70px] xl:px-0 flex items-center justify-between mx-auto relative !mt-0 max-w-[1320px]">
+	<header class="px-[12px] md:px-[36px] h-auto full-width relative py-[15px] first-letter:lg:py-[26px]">
+		<div class="mt-[70px] xl:px-0 flex items-center justify-between mx-auto relative !mt-0 max-w-[1320px]">
 			<router-link
 				:to="{ name: 'index' }"
 				class="flex">
@@ -36,10 +36,10 @@
 							<span>Productos</span>
 						</router-link>
 					</li>
-					<li class="group menu-mobile-item py-[13px]">
+					<li class="flex items-center group">
 						<router-link
 							:to="{ name: 'industries' }"
-							class="flex items-center justify-between transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">
+							class="hover:text-green-900 text-base font-inter menu-link lg:text-heading-6 mr-[7px]">
 							<span>Industrias</span>
 						</router-link>
 					</li>
