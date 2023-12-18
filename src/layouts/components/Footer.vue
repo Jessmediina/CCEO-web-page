@@ -1,8 +1,8 @@
 <template>
-	<footer class="mt-[92px] lg:mt-[150px] xl:mt-[200px] mb-[30px] px-[12px] md:px-[36px]">
+	<footer class="mt-[92px] lg:mt-[150px] xl:mt-[200px] mb-[30px]">
 		<div class="px-[12px] md:px-[36px] mt-[70px] xl:px-0">
 			<div class="flex flex-col items-center gap-2 mb-14 md:flex-row md:justify-between">
-				<img class="h-full w-full object-cover max-w-[162px]" src="src/assets/images/logo.png" alt="Logotipo de CCEO - Software Development" />
+				<img class="h-full w-full object-cover max-w-[162px]" src="@/assets/images/logo.png" alt="Logotipo de CCEO - Software Development" />
 				<div class="flex items-center flex-col gap-5 md:flex-row lg:gap-[30px]">
 					<p class="text-heading-6 font-chivo font-bold">¿Listo para empezar?</p>
 					<button type="button">
@@ -131,13 +131,13 @@
 				</div>
 				<div class="flex items-center justify-center gap-5 mt-5 lg:mt-0">
 					<a class="w-8 h-8 transition-all duration-300 hover:opacity-70 hover:-translate-y-1" target="_blank" href="https://www.facebook.com/cceosoftware">
-						<img class="h-full w-full object-cover" src="src/assets/images/icon-facebook.svg" alt="Icono de Facebook" />
+						<img class="h-full w-full object-cover" src="@/assets/images/icon-facebook.svg" alt="Icono de Facebook" />
 					</a>
 					<a class="w-8 h-8 transition-all duration-300 hover:opacity-70 hover:-translate-y-1" target="_blank" href="https://www.instagram.com/cceosoftware">
-						<img class="h-full w-full object-cover" src="src/assets/images/icon-instagram.svg" alt="Icono de Instagram" />
+						<img class="h-full w-full object-cover" src="@/assets/images/icon-instagram.svg" alt="Icono de Instagram" />
 					</a>
 					<a class="w-8 h-8 transition-all duration-300 hover:opacity-70 hover:-translate-y-1" target="_blank" href="https://www.linkedin.com/company/cceo-software-development">
-						<img class="h-full w-full object-cover" src="src/assets/images/icon-linkedin.svg" alt="Icono de Linkedin" />
+						<img class="h-full w-full object-cover" src="@/assets/images/icon-linkedin.svg" alt="Icono de Linkedin" />
 					</a>
 				</div>
 			</div>

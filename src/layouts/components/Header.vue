@@ -4,7 +4,7 @@
 			<router-link
 				:to="{ name: 'index' }"
 				class="flex">
-				<img class="logo z-50 w-[90px] md:w-[101px] lg:w-[122px] xl:w-[138px]" src="src/assets/images/logo.png" alt="Logotipo de CCEO - Software Development" />
+				<img class="logo z-50 w-[90px] md:w-[101px] lg:w-[122px] xl:w-[138px]" src="@/assets/images/logo.png" alt="Logotipo de CCEO - Software Development" />
 			</router-link>
 			<nav class="z-50 absolute hidden top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:block">
 				<ul class="navbar flex flex-col justify-center font-chivo gap-[34px] lg:flex-row">

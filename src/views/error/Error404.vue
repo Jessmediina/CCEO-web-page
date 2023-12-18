@@ -1,7 +1,7 @@
 <template>
 	<div class="px-[12px] md:px-[36px] mt-[70px] xl:px-0 flex flex-col justify-center items-center text-center lg:mt-[161px]">
 		<div class="max-w-[565px] mb-[50px]">
-			<img class="h-full w-full object-cover" src="src/assets/images/404.png" alt="Imagen de error 404" />
+			<img class="h-full w-full object-cover" src="@/assets/images/404.png" alt="Imagen de error 404" />
 		</div>
 		<h1 class="font-extrabold font-chivo text-[35px] leading-[44px] sm:text-[46px] sm:leading-[52px] md:text-heading-1 mb-7">
 			¡Ups! La página que estas buscando no se encuentra.
@@ -17,8 +17,8 @@
 					Regresar al inicio
 				</span>
 				<i class="group">
-					<img class="mr-4 rotate-180 filter-white w-[12px] group-hover:hidden" src="src/assets/images/icon-right-white.svg" alt="Icono de flecha a la izquierda" />
-					<img class="mr-4 rotate-180 filter-white w-[12px] hidden group-hover:block" src="src/assets/images/icon-right.svg" alt="Icono de flecha a la izquierda" />
+					<img class="mr-4 rotate-180 filter-white w-[12px] group-hover:hidden" src="@/assets/images/icon-right-white.svg" alt="Icono de flecha a la izquierda" />
+					<img class="mr-4 rotate-180 filter-white w-[12px] hidden group-hover:block" src="@/assets/images/icon-right.svg" alt="Icono de flecha a la izquierda" />
 				</i>
 			</router-link>
 		</button>
