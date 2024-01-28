@@ -76,6 +76,13 @@
 					<ul>
 						<li class="mb-2">
 							<router-link
+								:to="{ name: 'successStories' }"
+								class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]">
+								<span>Casos de Éxito</span>
+							</router-link>
+						</li>
+						<li class="mb-2">
+							<router-link
 								:to="{ name: 'careers' }"
 								class="transition-all duration-200 hover:text-green-900 hover:pl-[3px]">
 								<span>Carreras</span>
