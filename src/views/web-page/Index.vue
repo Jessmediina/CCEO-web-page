@@ -46,7 +46,7 @@
 						src="@/assets/images/ERP.png"
 						alt="ERP"/>
 					<h3 class="font-semibold text-xl mb-3">ERP</h3>
-					<p class="text-gray-600">
+					<p class="text-gray-500">
 						Sistemas de planificación empresarial totalmente personalizados.
 					</p>
 				</div>
