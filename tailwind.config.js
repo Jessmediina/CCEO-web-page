@@ -7,6 +7,7 @@ export default {
     theme: {
         extend: {
             colors: {
+                'primary-0': '#07A9E3',
                 'primary-100': '#CAFDFC',
                 'primary-200': '#97F6FC',
                 'primary-300': '#62E4F6',
@@ -15,7 +16,7 @@ export default {
                 'primary-600': '#0082C3',
                 'primary-700': '#0061A3',
                 'primary-800': '#004583',
-                'primary-900': '#00316C',
+                'primary-900': '#0B6431',
                 'success-100': '#E3FCD8',
                 'success-200': '#C1FAB2',
                 'success-300': '#95F18A',
@@ -57,4 +58,3 @@ export default {
     },
     plugins: [],
 }
-

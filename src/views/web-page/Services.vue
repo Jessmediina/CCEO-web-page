@@ -9,10 +9,12 @@
 					Connect your conversations with the tools and services that you use to get the job done. With over 1,500 apps and a robust API
 				</p>
 				<div class="flex items-center justify-start mb-[85px]">
-					<button type="button"> <a class="flex items-center inline-block z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-md bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 hover:-translate-y-[2px] text-white bg-black text-heading-6 tracking-wide mr-[22px]" href="#"><span class="block text-inherit w-full h-full rounded-md text-lg font-chivo font-semibold">Get Start</span><i> <img class="ml-[7px] w-[12px] filter-white group-hover:filter-black" src="./assets/images/icons/icon-right.svg" alt="arrow right icon" /></i></a></button>
-					<div class="flex items-center gap-3">
-						<i> <img src="./assets/images/icons/icon-button.svg" alt="" /></i><a class="text-base flex items-center font-chivo font-medium text-[18px] leading-[18px] gap-[5px]" href="/">How it works</a>
-					</div>
+					<button type="button">
+						<router-link :to="{ name: 'successStories' }" class="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] hover:bg-gray-900 hover:text-white hover:-translate-y-[2px] text-gray-900 bg-white w-fit">
+							<span class="block text-inherit w-full h-full rounded-[50px] text-lg font-chivo font-semibold">Get start</span>
+							<i><img class="ml-[7px] w-[12px] filter-black group-hover:filter-white" src="@/assets/images/icon-right.svg" alt="arrow right icon" /></i>
+						</router-link>
+					</button>
 				</div>
 				<div class="flex w-full gap-[60px]">
 					<div class="flex items-start lg:mb-[60px] last:mb-0 gap-[26px]">

@@ -1,5 +1,13 @@
 @import 'theme.css';
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 285px;
+    padding: 20px;
+    text-align: left;
+}
